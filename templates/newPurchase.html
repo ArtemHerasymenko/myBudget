@@ -1,0 +1,7 @@
+<h1>{{hint}}</h1>
+
+<form method = "POST", action = "">
+	{% csrf_token %}
+	{{form}}
+	<input type="Submit" name = "Add Purchase">
+</form>
